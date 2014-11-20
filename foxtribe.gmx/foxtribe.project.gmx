@@ -8,6 +8,9 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\object0</object>
+  </objects>
   <constants number="2">
     <constant name="GM_build_date">0</constant>
     <constant name="GM_version">0</constant>
