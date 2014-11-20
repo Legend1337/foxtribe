@@ -17,6 +17,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\menu_start</object>
+    <object>objects\dicks</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
