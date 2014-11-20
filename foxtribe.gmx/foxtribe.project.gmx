@@ -4,21 +4,26 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\menu_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\menu_start1</sprite>
     <sprite>sprites\menu_start2</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\menu_start</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\menu</room>
+    <room>rooms\house</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41963.2070192361</constant>
+    <constant name="GM_build_date">41963.2144342361</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
