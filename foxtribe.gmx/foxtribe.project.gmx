@@ -24,7 +24,6 @@
     <object>objects\menu_options</object>
     <object>objects\menu_exit</object>
 =======
-    <object>objects\dicks</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_room</room>
