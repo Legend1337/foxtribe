@@ -21,8 +21,12 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\menu_start</object>
+<<<<<<< HEAD
     <object>objects\menu_options</object>
     <object>objects\menu_exit</object>
+=======
+    <object>objects\dicks</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_room</room>
