@@ -14,23 +14,25 @@
       <sprite>sprites\menu_start2</sprite>
       <sprite>sprites\menu_start1</sprite>
     </sprites>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\backgroundmu</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\menu_start</object>
     <object>objects\menu_options</object>
     <object>objects\menu_exit</object>
-=======
+    <object>objects\menuback</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_room</room>
     <room>rooms\house_room</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41964.2956919097</constant>
+    <constant name="GM_build_date">41965.2030366204</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
