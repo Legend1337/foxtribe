@@ -58,8 +58,8 @@ alarm[0]=30;
           <argument>
             <kind>1</kind>
             <string>// check path passablility
-(obj_path_gen).alarm[0]=1;
-(obj_path_gen).otherid=id;
+(obj_path_gen_battle).alarm[0]=1;
+(obj_path_gen_battle).otherid=id;
 // go to movement
 alarm[1]=30;
 </string>
