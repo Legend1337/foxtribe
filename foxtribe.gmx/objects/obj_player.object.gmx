@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,43 +25,28 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Stats
-movement=200; // 200 = 2 squares
-// Common Var
-can_move=false;
-has_moved=true;
-is_moving=false;
-xx=x;
-yy=y;
-
-alarm[0]=30;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// check path passablility
-(obj_path_gen).alarm[0]=1;
-(obj_path_gen).otherid=id;
-// go to movement
-alarm[1]=30;
+            <string>{
+// Game pause check
+if (global.pause == 0) {
+// Movement stuff
+    if (keyboard_check(ord("W")) &amp;&amp; place_free(x,y-4)) {
+        y -= 4;
+        }
+    if (keyboard_check(ord("S")) &amp;&amp; place_free(x,y+4)) {
+        y += 4;
+        }
+    if (keyboard_check(ord("A")) &amp;&amp; place_free(x-4,y)) {
+        x -= 4;
+        }
+    if (keyboard_check(ord("D")) &amp;&amp; place_free(x+4,y)) {
+        x += 4;
+        }
+    }else{
+    draw_set_color(c_black);
+    draw_set_alpha(0.5);
+    draw_rectangle(x-32,y-32,x+32,y+32,0);
+    }
+}
 </string>
           </argument>
         </arguments>
