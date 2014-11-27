@@ -32,13 +32,19 @@
   <objects name="objects">
     <object>objects\obj_pause</object>
     <object>objects\obj_menu</object>
+    <objects name="obj_plymove">
+      <object>objects\obj_solid</object>
+      <object>objects\obj_path_gen</object>
+      <object>objects\obj_path</object>
+      <object>objects\obj_player</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_room</room>
     <room>rooms\roomof2</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41965.2941712269</constant>
+    <constant name="GM_build_date">41966.6752469907</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
