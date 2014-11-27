@@ -33,15 +33,17 @@
     <object>objects\obj_pause</object>
     <object>objects\obj_menu</object>
     <objects name="obj_plymove">
-      <object>objects\obj_solid</object>
-      <object>objects\obj_path_gen</object>
-      <object>objects\obj_path</object>
-      <object>objects\obj_player</object>
+      <object>objects\obj_solid_battle</object>
+      <object>objects\obj_path_gen_battle</object>
+      <object>objects\obj_path_battle</object>
+      <object>objects\obj_player_battle</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_room</room>
     <room>rooms\roomof2</room>
+    <room>rooms\house_room</room>
+    <room>rooms\menu_options</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41970.2277050463</constant>
